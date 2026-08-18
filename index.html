@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campora — The Student Marketplace of Ghana</title>
+  <meta name="description"
+    content="Buy and sell verified second-hand textbooks, calculators, bags and school supplies. Build your Back-to-School package in minutes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@500;600;700;800&family=IBM+Plex+Mono:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="brand"><span class="brand-mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+            stroke-linejoin="round" width="18" height="18">
+            <path d="M12 3 2 8l10 5 10-5-10-5Z" />
+            <path d="M6 10.5V16c0 1.1 2.7 2 6 2s6-.9 6-2v-5.5" />
+            <path d="M22 8v6" />
+          </svg>
+        </span>Campora</a>
+      <ul class="nav-links" data-nav-links>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="marketplace.html">Marketplace</a></li>
+        <li><a href="packages.html">Back-to-School</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="cart.html" class="cart-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+            stroke-linejoin="round" width="22" height="22">
+            <circle cx="9" cy="21" r="1" />
+            <circle cx="19" cy="21" r="1" />
+            <path d="M2.5 3h2l2.7 12.4a2 2 0 0 0 2 1.6h8.6a2 2 0 0 0 2-1.6L21.5 8H6.1" />
+          </svg>
+          <span class="cart-badge" data-cart-count>0</span>
+        </a>
+        <button class="nav-toggle" data-nav-toggle aria-label="Toggle menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+  <div class="kente-strip"></div>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Built for Ghanaian students</span>
+          <h1>School supplies, <em>sorted</em>. Verified and second-hand.</h1>
+          <p class="hero-sub">Campora is where students buy and sell second-hand textbooks, calculators, bags and
+            supplies — every listing checked and rated before it goes live. Or skip the search and build a full
+            Back-to-School package in a few taps.</p>
+          <div class="hero-actions">
+            <a href="marketplace.html" class="btn btn-primary">Browse the marketplace</a>
+            <a href="packages.html" class="btn btn-outline">Build my package</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat"><b>1,200+</b><span>items verified</span></div>
+            <div class="hero-stat"><b>12</b><span>regions covered</span></div>
+            <div class="hero-stat"><b>40%</b><span>average savings</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo">
+            <img src="images/grrr.jpg" alt="Student using the Campora marketplace on her laptop">
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow-sm">Shop by category</span>
+            <h2>Everything on your school list</h2>
+          </div>
+          <a href="marketplace.html" class="btn btn-ghost btn-sm">View all items</a>
+        </div>
+        <div class="cat-grid" id="home-cat-grid"></div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow-sm">How Campora works</span>
+            <h2>Three steps between you and a full school bag</h2>
+          </div>
+        </div>
+        <div class="steps-grid">
+          <div class="step-card reveal">
+            <div class="step-num">01</div>
+            <h4>Find or build</h4>
+            <p>Search the marketplace for a specific item, or use the Back-to-School Builder to get a full list for your
+              level and programme in seconds.</p>
+          </div>
+          <div class="step-card reveal">
+            <div class="step-num">02</div>
+            <h4>Check the badge</h4>
+            <p>Every listing carries a Campora Verified badge and a condition rating — Excellent, Good or Fair — so you
+              know exactly what you're paying for.</p>
+          </div>
+          <div class="step-card reveal">
+            <div class="step-num">03</div>
+            <h4>Pay with Mobile Money</h4>
+            <p>Add to cart, confirm your delivery details, and check out with MTN MoMo, Vodafone Cash or AirtelTigo
+              Money.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow-sm">Fresh on the marketplace</span>
+            <h2>Recently verified listings</h2>
+          </div>
+          <a href="marketplace.html" class="btn btn-ghost btn-sm">See all</a>
+        </div>
+        <div class="product-grid" id="home-product-grid"></div>
+      </div>
+    </section>
+
+    <!-- BACK TO SCHOOL PROMO -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <div>
+            <span class="eyebrow" style="background:rgba(255,255,244,0.14); color:var(--orange);">Back-to-School
+              Builder</span>
+            <h2>Tell us your level and programme. We'll build the list.</h2>
+            <p>JHS or SHS — Science, Business, General Arts, Visual Arts or Home Economics — get a recommended package
+              with real prices, then add or remove items before you check out.</p>
+          </div>
+          <a href="packages.html" class="btn btn-primary">Start building</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow-sm">From students already using it</span>
+            <h2>Trusted from Accra to Tamale</h2>
+          </div>
+        </div>
+        <div class="testi-grid">
+          <div class="testi-card reveal">
+            <p class="testi-quote">"I found a Casio fx-991ES in excellent condition for almost half the shop price. The
+              verified badge made me trust the listing straight away."</p>
+            <div class="testi-who">
+              <div class="testi-avatar">K</div>
+              <div>
+                <div class="testi-name">Kwabena, SHS 2</div>
+                <div class="testi-loc">Kumasi, Ashanti</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card reveal">
+            <p class="testi-quote">"The Back-to-School Builder saved me a whole afternoon of writing lists. I just
+              picked Business programme and everything I needed showed up."</p>
+            <div class="testi-who">
+              <div class="testi-avatar">A</div>
+              <div>
+                <div class="testi-name">Abena, SHS 1</div>
+                <div class="testi-loc">Accra, Greater Accra</div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card reveal">
+            <p class="testi-quote">"Paid with MoMo and picked everything up in Tamale the same week. Condition ratings
+              matched exactly what I received."</p>
+            <div class="testi-who">
+              <div class="testi-avatar">E</div>
+              <div>
+                <div class="testi-name">Efua, JHS 3</div>
+                <div class="testi-loc">Tamale, Northern</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Campora</div>
+          <p class="footer-desc">The verified student marketplace for second-hand textbooks, calculators, bags and
+            school supplies across Ghana.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Shop</h5>
+          <a href="marketplace.html">Marketplace</a>
+          <a href="packages.html">Back-to-School Packages</a>
+          <a href="cart.html">Cart & Checkout</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <span>How verification works</span>
+          <span>Contact support</span>
+        </div>
+        <div class="footer-col">
+          <h5>Regions served</h5>
+          <span>Greater Accra · Ashanti</span>
+          <span>Central · Western</span>
+          <span>Northern · Volta</span>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Campora. Built for students, by students.</span>
+        <span>Accra, Ghana</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById("home-cat-grid").innerHTML = CAMP_CATS.map(c => `
+    <a href="marketplace.html?category=${c.key}" class="cat-card reveal">
+      <div class="cat-icon">${campSvg(c.key)}</div>
+      <h3>${c.label}</h3>
+      <span>${c.desc}</span>
+    </a>`).join("");
+
+    const featured = campGetProducts().filter(p => p.status === "approved").slice(0, 8);
+    document.getElementById("home-product-grid").innerHTML = featured.map(campProductCardHTML).join("");
+  </script>
+</body>
+
+</html>
